@@ -7,7 +7,7 @@ class Instruction(StrEnum):
     SUB      = '-'
     IN       = ','
     OUT      = '.'
-    LOOP_BEG     = '['
+    LOOP_BEG = '['
     LOOP_END = ']'
 
 class Program:
